@@ -70,7 +70,7 @@ int i;
  * internal modes in bottom up way
  */
 
-if (array == '\0' || size < 2)
+if (*array == '\0' || size < 2)
 return;
 for (i = (size - 2) / 2; i >= 0; --i)
 maxHeapify(array, size, i, size);

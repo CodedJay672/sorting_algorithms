@@ -41,7 +41,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /* auxiliar functions */
-void swap(int *array, size_t a, size_t b);
+void swap_array(int *array, size_t a, size_t b);
 
 /* mandatory tasks functions */
 void bubble_sort(int *array, size_t size);
@@ -60,7 +60,6 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-void sort_deck(deck_node_t **deck);
 
 /* Prototypes for helper functions */
 void swap(int *a, int *b);
