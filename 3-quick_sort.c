@@ -20,12 +20,12 @@ for (i = left; i < rigth; i++)
 if (array[i] < pivot)
 {
 pichu++;
-swap(array, pichu, i);
+swap_array(array, pichu, i);
 if (array[pichu] != array[i])
 print_array(array, size);
 }
 }
-swap(array, pichu + 1, rigth);
+swap_array(array, pichu + 1, rigth);
 if (array[++pichu] != array[rigth])
 print_array(array, size);
 return (pichu);

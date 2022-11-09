@@ -8,7 +8,7 @@
  *
  */
 
-void swap(int *array, size_t a, size_t b)
+void swap_array(int *array, size_t a, size_t b)
 {
 int tmp = array[a];
 array[a] = array[b];
